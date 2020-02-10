@@ -1,0 +1,33 @@
+.header-container {
+  background: #4A90E2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+.header-title {
+  font-weight:bold;
+}
+
+.header-title h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-profile a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.header-profile a p {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
